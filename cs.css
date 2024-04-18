@@ -9,33 +9,44 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#pop {
+button {
     padding: 5px 10px;
-    border-radius: 8px;
-    border: 1px solid #AAA;
+    border-radius: 10px;
+    border: 1px solid #000000;
     background: white;
-    width: 130px;
-    height: 40px;
-    font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#confirm-select-animal {
-    border-radius: 8px;
-    border: 1px solid #AAA;
-    background: white;
+#pop-btn {
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    font-size: 30px;
+    border: 3px solid #000000
+}
+
+#confirm-select-animal-btn {
     width: 70px;
     height: 30px;
     font-size: 15px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#select-animal {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 50px;
+#select-animal-btn {
+    font-size: 15px;
+    margin-top: 15px;
     padding: 5px 5px;
     border-radius: 8px;
+    text-align: center;
+}
+
+#save-btn {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#leaderboard-btn {
+    font-size: 15px;
+    margin-top: 390px;
 }
